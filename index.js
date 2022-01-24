@@ -10,7 +10,7 @@ const myRoot = () => {
     return mySegment.length == 1 ? '/' : `${mySegment[1]}`
 }
 
-
+// Unused
 const printOutput = (req, res) => {
     var output = `Root pathname is ${__dirname}, NODE_ENV = ${process.env.NODE_ENV}, Port = ${process.env.PORT} <br>`;
     for (var property in process.env) {
